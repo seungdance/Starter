@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="video-background">
+        <div id="youtube-player"></div>
+        <div class="overlay"></div>
+      </div>
+    </header>
+
+    <main>
+      <section id="bio">
+        <h2 class="animate-hidden">A Little About Me</h2>
+        <div class="bio-content">
+          <img src="Assets/Tube.jpg" alt="Tube illustration" class="bio-photo" />
+          <p>Hi, I'm Seung Hwan Lee. I'm doing many things.</p>
+        </div>
+      </section>
+
+      <section id="media">
+        <h2 class="animate-hidden">Featured Works</h2>
+        <div class="projects-container">
+          <article class="project-feature">
+            <div class="project-number">01-</div>
+            <div class="project-content">
+              <h3 class="project-title">Politicalness</h3>
+              <div class="project-description">
+                <p>
+                  An exploration of political dynamics through artistic expression. This work examines the intersection of power, society,
+                  and individual identity.
+                </p>
+              </div>
+              <a href="https://youtu.be/YnhmBehWvEA" class="video-btn">
+                <span class="play-icon">▶</span>
+                <span>Watch Video</span>
+              </a>
+            </div>
+            <div class="project-image-container">
+              <img src="Assets/Politicalness.jpg" alt="Politicalness Project" class="project-image politicalness-img" />
+            </div>
+          </article>
+
+          <article class="project-feature reverse">
+            <div class="project-number">02-</div>
+            <div class="project-content">
+              <h3 class="project-title">Colonialism</h3>
+              <h4 class="project-title-sub">The Weight of Sound</h4>
+              <div class="project-description">
+                <p>A visual narrative exploring the lasting impacts of colonial history and its contemporary manifestations in society.</p>
+              </div>
+              <a href="https://youtu.be/gYoq0wW3sP4" class="video-btn">
+                <span class="play-icon">▶</span>
+                <span>Watch Video</span>
+              </a>
+            </div>
+            <div class="project-image-container">
+              <img src="Assets/Colonialism.png" alt="Colonialism Project" class="project-image" />
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="animate-hidden">Get In Touch</h2>
+        <div class="contact-content">
+          <p>Let's collaborate or just say hello!</p>
+          <a href="mailto:seungdance@gmail.com" class="contact-email" aria-label="Send me an email">
+            <span class="email-icon">✉</span>
+            <span>Send Message</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        <a href="mailto:seungdance@gmail.com" aria-label="Send me an email">
+          <span class="email-icon">✉</span>
+          <span>Contact</span>
+        </a>
+      </p>
+      <p>Made by Seung Hwan Lee &copy; 2025</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
